@@ -211,7 +211,7 @@ body {
 }
 .footer-left .footer-left--cong {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   top: 60px;
   left: 290px;
   display: flex;
@@ -250,7 +250,7 @@ body {
 }
 .footer-left .footer-left--statistics {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 20px;
   right: 0;
   padding-top: 30px;
@@ -343,8 +343,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   margin: auto;
   border-radius: 50%;
   line-height: 35px;
@@ -371,7 +371,6 @@ body {
 }
 .footer-left .footer-left--statistics #part1 .circle {
   background-color: #19BF6F;
-  /*transform: rotate(76deg);*/
   animation: first 0s 1 forwards;
 }
 .footer-left .footer-left--statistics #part2 {
@@ -414,7 +413,7 @@ body {
 }
 .footer-left .footer-left--music {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   top: 220px;
   left: 240px;
   background-color: #FFFFFF;
