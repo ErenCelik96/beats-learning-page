@@ -1,0 +1,60 @@
+/*************MİDSİDE COURSE****************/
+
+.midside-course {
+    padding: 0 360px;
+    margin-top: 200px;
+
+    h1 {
+        font : {
+            family:$poppinsFont;
+            weight:600;
+            size:38px;
+        }
+        color: #000000;
+        line-height: 35px;
+    }
+
+    p {
+        font : {
+            family:$poppinsFont;
+            size:18px;
+        }
+        line-height: 30px;
+        color: #BDBDBD;
+    }
+
+    .course-cards {
+        h4 {
+            font : {
+                family:$poppinsFont;
+                weight:600;
+                size:17px;
+            }
+            line-height: 25px;
+            color: #000000;
+        }
+
+        p {
+            font : {
+                family:$poppinsFont;
+                weight:500;
+                size:14px;
+            }
+            line-height: 20px;
+            color: #878787;
+        }
+
+        .course-cards--icons {
+            font : {
+                family:$poppinsFont;
+                weight:500;
+                size:14px;
+            }
+            line-height: 14px;
+            color: #000000;
+            letter-spacing: 0.01em;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

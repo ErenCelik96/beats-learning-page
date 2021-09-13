@@ -1,0 +1,31 @@
+/**************MİD SİDE BACKGROUND*********************/
+
+.midside {
+    width: 100%;
+    height: 1400px;
+
+    .midside-bg--content{
+        position: absolute;
+    }
+
+    .left-vector{
+        left:0;
+        top:150px;
+    }
+
+    .right-vector {
+        right:0;
+        top:550px;
+    }
+
+    .mid-hexagon {
+        left:0;
+        top:800px;
+    }
+
+    .mid-circle {
+        right:0;
+        top:1200px;
+    }
+}
+

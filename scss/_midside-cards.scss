@@ -1,0 +1,38 @@
+/***************MİD SİDE CARDS***********/
+
+.midside-cards {
+    margin-top:100px;
+    width: 100%;
+    height:400px;
+    padding:20px;
+
+    .midside-cards--item {
+        width:320px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+            font : {
+                family:$poppinsFont;
+                weight:600;
+                size:26px;
+            }
+            line-height: 26px;
+            color: #1E1E1E;
+            margin-top:30px;
+        }
+
+        p {
+            font : {
+                family:$openSansFont;
+                size:16px;
+            }
+            line-height: 28px;
+            color: #757575;
+        }
+    }
+}
