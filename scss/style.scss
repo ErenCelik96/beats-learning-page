@@ -1,0 +1,35 @@
+/////////FONTS
+$interFont:'Inter', sans-serif;
+$mulishFont: 'Mulish', sans-serif;
+$openSansFont: 'Open Sans', sans-serif;
+$poppinsFont: 'Poppins', sans-serif;
+
+///////////COLORS
+$green: #336C61;
+$blue: #54B8FF;
+
+/*BODY&ALL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover; /*"cover" and "center" to make the background appear clearer*/
+    padding-top: 40px;
+}
+
+//NAVBAR
+@import "./navbar.scss";
+//UPSİDE-BG
+@import "./upside-bg";
+//UPSİDE-CONTENT
+@import "./upside-content";
+//UPSİDE-FOOTER
+@import "./upside-footer";
+
+
+

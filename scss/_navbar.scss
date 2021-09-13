@@ -1,0 +1,38 @@
+/*********************NAVBAR*****************/
+#logo {
+    margin-top:-30px;
+}
+
+#searchBtn {
+    background-color: $blue;
+    color:white;
+}
+
+.nav-link {
+    font : {
+    family: $poppinsFont;
+    weight: bold;
+    size:15px;
+    } 
+    line-height:22px; 
+    color: black !important;
+}
+
+.inactive-sign {
+    display: none !important;
+}
+
+@media screen and (max-width: 991px) { /*for hamburger menu*/
+    .active-sign {
+        display: none !important;
+    }
+
+    .inactive-sign {
+        display: inline-block !important;
+    }
+
+    #logo {
+        margin: 0 20px 20px 0;
+    }
+}
+
