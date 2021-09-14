@@ -1,0 +1,31 @@
+/************BOTTOM SİDE BACKGROUND*************/
+
+.bottomside {
+    width: 100%;
+    height: 1350px;
+
+    .bottomside-bg--content {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .yellow-circle {
+        left:920px;
+        top:-30px;
+    }
+
+    .circle-group {
+        right:360px;
+        top:470px;
+    }
+
+    .vector-group {
+        left:0;
+        top:700px;
+    }
+
+    .bottom-circle {
+        top:1115px;
+        right:320px;
+    }
+}

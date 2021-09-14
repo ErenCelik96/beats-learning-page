@@ -2,7 +2,7 @@
 
 .midside {
     width: 100%;
-    height: 1400px;
+    height: 1200px;
 
     .midside-bg--content{
         position: absolute;
@@ -10,22 +10,22 @@
 
     .left-vector{
         left:0;
-        top:150px;
+        top:50px;
     }
 
     .right-vector {
         right:0;
-        top:550px;
+        top:350px;
     }
 
     .mid-hexagon {
         left:0;
-        top:800px;
+        top:580px;
     }
 
     .mid-circle {
         right:0;
-        top:1200px;
+        top:900px;
     }
 }
 

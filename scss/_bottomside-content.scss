@@ -1,0 +1,57 @@
+/*************BOTTOM SİDE CONTENT***********/
+
+.bottomside-content {
+
+    div {
+        height: 700px;
+        width: 600px;
+    }
+}
+
+.bottomside-content--left {
+
+    :first-child {
+        font : {
+            family:$poppinsFont;
+            size:16px;
+        }
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #2F2B71;
+    }
+    
+    h1 {
+        font : {
+            family:$poppinsFont;
+            size:62px;
+            weight: bold;
+        }
+        line-height:72px;
+        color: #101130;
+        margin-bottom:20px;
+    }
+    
+    p {
+        font : {
+            family:$poppinsFont;
+            size:18px;
+        }
+        line-height:32px;
+        color: #67687B;
+    }
+    
+    :last-child { /*button*/
+        background-color:$blue;
+        border: none;
+        width:181px;
+        height:56px;
+        font : {
+            family:$poppinsFont;
+            size: 18px;
+        }
+        line-height:27px;
+        text-align:center;
+        color:#FFFEFE;
+        margin-top:50px;
+    }
+}

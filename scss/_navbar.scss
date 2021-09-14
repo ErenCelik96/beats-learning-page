@@ -11,11 +11,12 @@
 .nav-link {
     font : {
     family: $poppinsFont;
-    weight: bold;
+    weight: 500;
     size:15px;
     } 
     line-height:22px; 
     color: black !important;
+    margin-right: 30px;
 }
 
 .inactive-sign {

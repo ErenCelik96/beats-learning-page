@@ -1,0 +1,83 @@
+/*************BOTTOM SİDE SUBSCRİBE*****************/
+
+.bottomside-subscribe {
+    width: 100%;
+
+    .bottomside-subscribe--content {
+        margin-top:200px;
+        width: 1201px;
+        height: 391px;
+        background-image: url("../img/bottom-group.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+        padding-left: 100px;
+
+        .subscribe-input{
+            width:330px;
+
+            :first-child {/*NEWSLETTER*/
+                font : {
+                    family:$poppinsFont;
+                    weight:500;
+                    size:18px;
+                }
+                line-height:22px;
+                letter-spacing:6px;
+                color:#8785AA;
+            }
+
+            h1 {
+                font : {
+                    family:$poppinsFont;
+                    weight:500;
+                    size: 40px;
+                }
+                line-height: 52px;
+                display: flex;
+                align-items:center;
+                color:#1B1B1B;
+                margin-bottom: 44px;
+            }
+
+            .custom-search {
+                position: relative;
+                width: 300px;
+              }
+              .custom-search-input {
+                width: 100%;
+                border: 1px solid #ccc;
+                padding: 10px 100px 10px 20px; 
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                text-transform: lowercase;
+                box-sizing: border-box;
+                outline: none;
+                height:75px;
+                box-shadow: 8px 20px 30px rgba(0, 0, 0, 0.01);
+                border-radius: 2px;
+                font : {
+                    family:$poppinsFont;
+                    size:16px;
+                }
+                color: #8D8A7A;
+              }
+              .custom-search-botton {
+                position: absolute;
+                right: 13px; 
+                top: 13px;
+                bottom: 13px;
+                border: 0;
+                background: #12294B;
+                color: #fff;
+                outline: none;
+                margin: 0;
+                padding: 0 10px;
+                z-index: 2;
+                width:50px;
+                height:50px;
+                box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.12);
+              }
+        }
+    }
+}

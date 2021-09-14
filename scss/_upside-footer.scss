@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top:100px;
+    // padding-top:50px;
 
     .upside-footer--div {
         width:900px;
@@ -21,18 +21,17 @@
     .footer-left--cong{
         position:absolute;
         z-index: 0;
-        top:60px;
-        left:290px;
+        top:150px;
+        left:385px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        width: 280px;
-        height: 90px;
+        width: 226px;
+        height: 70px;
         padding-top: 5px;
         border-radius: 14px;
         background-color: #FFFDFA;
-
         img{
             margin-top: -15px;
         }
@@ -44,24 +43,24 @@
             align-items: flex-start;
             margin-left:10px;
 
-            .h4{
+            :first-child{
                 font : {
                     family: $interFont;
-                    weight: bold;
+                    weight: 600;
                     size: 14px;
                 }
                 line-height: 17px;
                 color: #04004D;
+                margin-bottom: 5px;
             }
 
-            p {
+            :last-child {
                 font : {
                     family: $interFont;
                     size: 12px;
                 }
-                line-height: 12px;
+                line-height: 15px;
                 color: #898E92;
-                letter-spacing:2px;
             }
     
         }
@@ -70,11 +69,11 @@
     .footer-left--statistics {
         position:absolute;
         z-index: 1;
-        top:20px;
-        right:0;
+        top:120px;
+        right:50px;
         padding-top:30px;
-        width:350px;
-        height:450px;
+        width:280px;
+        height:370px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,11 +84,12 @@
             font : {
                 family:$interFont;
                 weight: 600;
-                size: 20px;
+                size: 14px;
             }
             line-height: 17px;
             text-align: center;
             color: #04004D;
+            margin-top: -20px ;
         }
 
         .statistics {
@@ -97,10 +97,11 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            margin-top: -20px;
 
             div {
-                width:130px;
-                height:75px;
+                width:102px;
+                height:64px;
                 border-radius: 4px;
                 padding:10px;
                 display: flex;
@@ -118,7 +119,7 @@
                     font : {
                         family:$interFont;
                         weight: 600;
-                        size:25px;
+                        size:20px;
                     }
                     line-height: 24px;
                     color: #FAB408;
@@ -128,10 +129,11 @@
                     font : {
                         family: $interFont;
                         weight:500;
-                        size: 12px;
+                        size: 10px;
                     }
                     line-height: 10px;
                     color: #FAB408;
+                    margin: 0;
                 }
 
                 
@@ -145,7 +147,7 @@
                     font : {
                         family:$interFont;
                         weight: 600;
-                        size:25px;
+                        size:20px;
                     }
                     line-height: 24px;
                     color:#19BF6F;
@@ -155,10 +157,11 @@
                     font : {
                         family: $interFont;
                         weight:500;
-                        size: 12px;
+                        size: 10px;
                     }
                     line-height: 10px;
                     color: #19BF6F;
+                    margin: 0; 
                 }
 
                 
@@ -168,7 +171,7 @@
         /****STATİSTİC-CİRCLE****/
 
         .donut-chart-block{
-            margin-top:40px;
+            margin-top:10px;
         }
 
         .donut-chart {
@@ -258,16 +261,16 @@
     .footer-left--music {
         position:absolute;
         z-index: 0;
-        top:220px;
-        left:240px;
+        top:270px;
+        left:300px;
         background-color: #FFFFFF;
         display: flex;
         flex-direction:column;
         align-items:flex-start;
         justify-content:center;
-        padding:20px 40px 0 40px;
-        width:400px;
-        height:420px;
+        padding:20px 0px 0 30px;
+        width:344px;
+        height:395px;
         border-radius: 15px;
 
         .footer-left--music_header {
@@ -308,12 +311,13 @@
             display: flex;
             flex-direction:row;
             padding: 5px 0;
-            justify-content:center;
+            justify-content:space-around ;
             align-items:center;
+            width: 100%;
 
             p {
                 margin-top:15px;
-                margin-right: 70px;
+                margin-right: 10px;
                 font : {
                     family: $interFont;
                     size: 16px;
@@ -325,7 +329,7 @@
 
             button {
                 width:90px;
-                height:25px;
+                height:24px;
                 border:none;
                 border-radius:5px;
                 background-color: #367166;
