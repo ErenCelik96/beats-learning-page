@@ -3,26 +3,31 @@
 .upside-footer {
     width:100%;
     z-index: 1;
-    top:800px;
+    margin-bottom:90px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    // padding-top:50px;
+    align-items:center;
 
-    .upside-footer--div {
-        width:900px;
-        height:700px;
-    }
 }
 
 .footer-left {
     position:relative;
+    width:600px;
+    height:500px;
+
+    .footer-left--bg{
+        position:absolute;
+        z-index: -2;
+        top:320px;
+        right: 50px;
+    }
 
     .footer-left--cong{
         position:absolute;
         z-index: 0;
-        top:150px;
-        left:385px;
+        top:20px;
+        left:135px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -69,8 +74,8 @@
     .footer-left--statistics {
         position:absolute;
         z-index: 1;
-        top:120px;
-        right:50px;
+        top:0px;
+        right:0px;
         padding-top:30px;
         width:280px;
         height:370px;
@@ -261,8 +266,8 @@
     .footer-left--music {
         position:absolute;
         z-index: 0;
-        top:270px;
-        left:300px;
+        top:150px;
+        left:50px;
         background-color: #FFFFFF;
         display: flex;
         flex-direction:column;
@@ -345,12 +350,6 @@
         }
     }
 
-    .footer-left--bg{
-        position:absolute;
-        z-index: -2;
-        top:440px;
-        left: 600px;
-    }
 }
 
 
@@ -358,7 +357,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 140px;
+    padding: 0px;
+    width:33%;
+    height:700px;
+    position:relative;
 
     h2 {
         font : {
@@ -389,4 +391,10 @@
         color: #336C61;
         display: flex;
     }
+}
+
+.red-points {
+    position:absolute;
+    right:0;
+    bottom:0;
 }

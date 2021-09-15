@@ -1,0 +1,138 @@
+/*****************MEDİA-QUERY*********************/
+
+
+
+@media screen and (max-width: 1440px) {
+    .illustration {
+        width:600px;
+        top:90px;
+    }
+
+    footer {
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .illustration {
+        width:550px;
+    }
+    
+    .items {
+        width:70px;
+        height:70px;
+    }
+
+    .item1 {
+        left:20% !important;
+        top:200px !important;
+    }
+
+    .content-left h5 {
+        font-size:22px;
+    }
+
+    .content-left h1 {
+        font-size:55px;
+    }
+
+    .content-left p {
+        font-size:20px;
+    }
+
+    .content-left button {
+        width:130px;
+        height:40px;
+        font-size:12px;
+    }
+
+    .footer-right h2 {
+        font-size:48px;
+    }
+
+    .footer-right p, .footer-right a {
+        font-size:14px;
+    }
+
+    .bottomside {
+        margin-top: 300px;
+    }
+
+    .bottomside-content--right{
+        height:550px;
+        width:400px
+    }
+
+    .circle-group {
+        width:150px;
+    }
+
+    .course-card-group {
+        width:1000px !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .illustration {
+        width:450px;
+    }
+
+    .bottomside-content--right{
+        height:500px;
+        width:380px
+    }
+
+    .midside-cards {
+        margin-bottom:250px;
+    }
+
+    .bottomside {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    
+    // .upside-footer {
+    //     flex-direction:column;
+    //     margin-top:50px;
+    //     margin-bottom:-70px;
+    // }
+
+    // .bottomside-content {
+    //     flex-direction:column;
+    //     justify-content:center;
+    //     align-items:center;
+    // }
+}
+
+
+
+
+// @media screen and (max-width: 1260px) {
+//     .midside-cards {
+//         margin-bottom:250px;
+//     }
+
+//     .bottomside {
+//         margin-top: 500px;
+//     }
+
+
+// }
+
+// @media screen and (max-width: 1234px) {
+//     .illustration {
+//         width:500px;
+//     }   
+
+//     footer {
+//         width:90%;
+//     }
+// }
+
+// @media screen and (max-width: 1048px) {
+//     .illustration {
+//         width:460px;
+//     }   
+// }

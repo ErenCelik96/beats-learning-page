@@ -1,14 +1,9 @@
 /*************BOTTOM SİDE CONTENT***********/
 
-.bottomside-content {
-
-    div {
-        height: 700px;
-        width: 600px;
-    }
-}
-
 .bottomside-content--left {
+
+    height: 700px;
+        width: 600px;
 
     :first-child {
         font : {
@@ -53,5 +48,24 @@
         text-align:center;
         color:#FFFEFE;
         margin-top:50px;
+    }
+}
+
+.bottomside-content--right {
+    height: 660px;
+    width: 530px;
+    background-image:url("../img/mid-woman-pic.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    .yellow-circle{
+        top:-50px;
+        left:-60px;
+    }
+
+    .circle-group {
+        bottom:-40px;
+        right:-20px;
     }
 }

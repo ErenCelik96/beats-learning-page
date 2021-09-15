@@ -2,7 +2,7 @@
 
 .upside-bg{
     width: 100%;
-    height: 170vh;
+    height: 90vh;
     margin-top: 50px;
     position: relative;
     z-index: 0;
@@ -17,6 +17,7 @@
     }
 
     .square {
+        left:0;
         top:654px;
     }
     
@@ -44,12 +45,6 @@
         left:85%;
         top:790px;
     }
-
-    .red-points{
-        right:0;
-        top:1400px;
-    }
-
 }
 
 

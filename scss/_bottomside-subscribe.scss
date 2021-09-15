@@ -5,13 +5,18 @@
 
     .bottomside-subscribe--content {
         margin-top:200px;
-        width: 1201px;
+        width: 70%;
         height: 391px;
         background-image: url("../img/bottom-group.png");
         background-repeat: no-repeat;
         background-size:cover;
         background-position:center;
         padding-left: 100px;
+
+        .bottom-circle {
+            bottom:-125px;
+            right:-20px;
+        }
 
         .subscribe-input{
             width:330px;
@@ -80,4 +85,5 @@
               }
         }
     }
+
 }

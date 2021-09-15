@@ -66,7 +66,8 @@
   <!---------------------ARTICLE--------------------->
   <article class="upside position-relative">
     <!-- ---------------UPSİDE---------------- -->
-   <section class="upside-bg">  <!-- -UPSİDE BACKGROUND İMAGES- -->
+   <section class="upside-bg">
+         <!-- -UPSİDE BACKGROUND İMAGES- --> 
         <img class="upside-bg--img circle-left" src="./img/up-left-circle.png" alt="circle"  width="28px" height="90px">
         <img class="upside-bg--img square" src="./img/up-left-square.png" alt="square">
         <img class="upside-bg--img hexagon" src="./img/up-right-hexagon.png" alt="hexagon" width="38px" height="110px">
@@ -74,9 +75,9 @@
         <img class="upside-bg--img up-points" src="./img/up-mid-points.png" alt="points" width="80px">
         <img class="upside-bg--img yellow-points" src="./img/yellow-points.png" alt="yellow points" width="250px">
         <img class="upside-bg--img plus-group" src="./img/plus-group.png" alt="plus group" width="160px">
-        <img class="upside-bg--img red-points" src="./img/right-red-points.png" alt="red points">
     </section>
-    <section class="upside-content"> <!-- --UPSİDE TEXT AND İMAGE CONTENTS-- -->
+    <section class="upside-content">
+      <!-- --UPSİDE TEXT AND İMAGE CONTENTS-- --> 
       <div class="upside-content--div content-left">
         <h5>TRAINING TO SUCCEED</h5>
         <h1>Believe and you can achieve</h1>
@@ -92,18 +93,23 @@
         <img class="content-right--img items item5" src="./img/item5.png" alt="item5" width="93px" height="93px">
       </div>
     </section>
-    <section class="upside-footer position-absolute"> <!-- --UPSİDE CARDS AND TEXT CONTENTS-- -->
+    <!-- --UPSİDE CARDS AND TEXT CONTENTS-- -->
+    <section class="upside-footer position-relative"> 
       <div class="upside-footer--div footer-left">
-        <div class="footer-left--cong">
+        <img class="footer-left--bg" src="./img/cards-circle.png" alt="cards circle" width="200px">
+        <!-----CARD 1------>
+        <div class="footer-left--cong"> 
           <img src="./img/cong-icon.png" alt="congrats icon" width="40px" height="40px">
           <div>
             <p>Congratulations</p>
             <p>Your admission completed</p>
           </div>
         </div>
-        <div class="footer-left--statistics">
+        <!-----CARD 2------>
+        <div class="footer-left--statistics"> 
           <p>Teachers Statistics</p> 
-          <div class="donut-chart-block block"> <!--DONUT BAR-->
+          <!--DONUT BAR-->
+          <div class="donut-chart-block block"> 
             <div class="donut-chart">
               <div id="part1" class="portion-block"><div class="circle"></div></div>
               <div id="part2" class="portion-block"><div class="circle"></div></div>
@@ -122,6 +128,7 @@
             </div>
           </div>
         </div>
+        <!-----CARD 3------>
         <div class="footer-left--music">
           <img src="./img/cards-left.png" alt="card women image" width="280px" height="186px">
           <div class="footer-left--music_header">
@@ -134,24 +141,28 @@
             <button type="button">JOIN NOW</button>
           </div>
         </div>
-        <img class="footer-left--bg" src="./img/cards-circle.png" alt="cards circle" width="200px">
       </div>
-      <div class="upside-footer--div footer-right">
+      <!-----TEXT DİV---->
+      <div class="upside-footer--div footer-right"> 
         <h2>Get the Best Class by the Best Teachers</h2>
         <p>Get your best class and gain the great thing from the best and well qualified experienced teachers all over the world and get shinny. We are a unique training provider willing to give you all the skills and experience you need to fulfil your future career</p>
         <a href="#">Read more <i class="material-icons">arrow_forward</i></a>
       </div>
+      <img class="upside-bg--img red-points" src="./img/right-red-points.png" alt="red points">
     </section>
   </article>
+  <!---------------------MİDDLE SİDE---------------------------->
   <article class="midside position-relative">
-    <section class="midside-bg">
+    <!---------MİDDLE SİDE BACKGROUND İMAGES--------->
+    <section class="midside-bg"> 
       <img class="midside-bg--content left-vector" src="./img/left-vector-group.png" alt="left vectors" width="100px">
       <img class="midside-bg--content right-vector" src="./img/right-vector-group.png" alt="right vectors" width="200px">
       <img class="midside-bg--content mid-hexagon" src="./img/mid-hexagon.png" alt="hexagon" width="50px">
       <img class="midside-bg--content mid-circle" src="./img/up-right-circle.png" alt="circle" width="50px">
     </section>
-    <section class="midside-cards d-flex justify-content-center align-center">
-      <div class="midside-cards--item card1">
+    <!-----MİDDLE SİDE CARDS------>
+    <section class="midside-cards d-flex flex-wrap justify-content-center align-center"> 
+      <div class="midside-cards--item card1"> 
         <img src="./img/cards/card-1.png" alt="card1" width="84px" height="84px">
         <h3>Experienced Teacher</h3>
         <p>We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.</p>
@@ -167,11 +178,11 @@
         <p>We are a unique training provider willing to give you all the skills and experience you need to fulfil your future career</p>
       </div>
     </section>
-    <section class="midside-course d-flex flex-column justify-content-center align-center">
-      <div class="d-flex flex-column justify-content-center align-center">
+    <!-----MİDDLE SİDE COURSE CARDS------>
+    <section class="midside-course d-flex flex-column justify-content-center align-items-center">
         <h1 class="mb-3">Featured Course</h1>
         <p class="mb-5">Everything you need to when you're looking</p>
-        <div class="d-flex justify-content-center align-center">
+        <div class="course-card-group d-flex flex-wrap justify-content-center align-items-center">
           <div class="course-cards mx-2">
             <img src="./img/featured-course/f-course1.png" alt="web development" width="380px">
             <h4>A Complete Web development</h4>
@@ -203,15 +214,13 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
   </article>
+  <!----------------BOTTOM SİDE------------------->
   <article class="bottomside position-relative">
+    <!-------BOTTOM SİDE BACKGROUND İMAGE---------->
     <section class="bottomside-bg">
-      <img class="bottomside-bg--content yellow-circle" src="./img/mid-yellow-circle.png" alt="yellow circle" width="150px">
-      <img class="bottomside-bg--content circle-group" src="./img/mid-circle-group.png" alt="circle group" width="250px">
       <img class="bottomside-bg--content vector-group" src="./img/bottom-left-vector-group.png" alt="vector group" width="220px">
-      <img class="bottomside-bg--content bottom-circle" src="./img/bottom-circle.png" alt="circle" width="300px">
     </section>
     <section class="bottomside-content d-flex justify-content-center align-center">
       <div class="bottomside-content--left d-flex flex-column justify-content-center align-items-start px-5">
@@ -220,23 +229,26 @@
         <p>A best and cheapest way of getting know learning to make a better tomorrow</p>
         <button type="button">Start Free Trial</button>
       </div>
-      <div class="bottomside-content--right d-flex justify-content-center align-items-center">
-        <img src="./img/mid-woman-pic.png" alt="woman" width="526px" height="656px">
+      <div class="bottomside-content--right position-relative">
+        <img class="bottomside-bg--content yellow-circle" src="./img/mid-yellow-circle.png" alt="yellow circle" width="150px">
+        <img class="bottomside-bg--content circle-group" src="./img/mid-circle-group.png" alt="circle group" width="250px">
       </div>
     </section>
     <section class="bottomside-subscribe d-flex justify-content-center align-items-center">
-      <div class="bottomside-subscribe--content d-flex align-items-center">
+      <div class="bottomside-subscribe--content d-flex align-items-center position-relative">
         <div class="subscribe-input">
           <p>NEWSLETTER</p>
           <h1>Subscribe Our Newsletter</h1>
           <div class="custom-search">
             <input type="text" class="custom-search-input" placeholder="enter your email..">
-            <button class="custom-search-botton material-icons" type="submit">arrow_forward</button>  
+            <button class="custom-search-botton material-icons" type="submit">arrow_forward</button>
           </div>
         </div>
+        <img class="bottomside-bg--content bottom-circle" src="./img/bottom-circle.png" alt="circle" width="300px">
       </div>
     </section>
   </article>
+  <!--------------------FOOTER---------------------->
   <footer class="d-flex justify-content-evenly align-items-start">
     <div class="footer-links text">
       <h3>Pages</h3>
