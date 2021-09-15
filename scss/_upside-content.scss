@@ -24,7 +24,7 @@ width:35%;
         font : {
             family:$poppinsFont;
             weight:500;
-            size:26px;
+            size:1.4vw;
         }
         line-height:30px;
         letter-spacing:0.235em;
@@ -37,7 +37,7 @@ width:35%;
         font : {
             family:$poppinsFont;
             weight:bold;
-            size:70px;
+            size:3.6458333333333335vw;
         }
         line-height: 82px;
         color:#5F596E;
@@ -48,7 +48,7 @@ width:35%;
         font : {
             family:$poppinsFont;
             weight:500;
-            size:20px;
+            size:1.5vw;
         }
         line-height: 31px;
         letter-spacing: 0.05em;
@@ -87,9 +87,15 @@ width:35%;
         position:absolute;
     }
 
+    .items {
+        width: 4.84375vw;
+        height: 4.84375vw;
+    }
+
     .illustration{
-        bottom: 0px;
         left: 10%;
+        width:44vw;
+        height:40vw;
     }
 
     .item1 {

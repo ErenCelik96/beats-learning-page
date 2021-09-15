@@ -1,9 +1,13 @@
 /*************BOTTOM SİDE CONTENT***********/
+.bottomside-content {
+    flex-wrap: wrap;
+}
+
 
 .bottomside-content--left {
 
     height: 700px;
-        width: 600px;
+    width: 600px;
 
     :first-child {
         font : {
@@ -18,7 +22,7 @@
     h1 {
         font : {
             family:$poppinsFont;
-            size:62px;
+            size:3.3vw;
             weight: bold;
         }
         line-height:72px;
@@ -52,20 +56,23 @@
 }
 
 .bottomside-content--right {
-    height: 660px;
-    width: 530px;
+    height: 34.3vw;
+    width: 27.6vw;
     background-image:url("../img/mid-woman-pic.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    align-self: center;
 
     .yellow-circle{
         top:-50px;
         left:-60px;
+        width: 7.8vw;
     }
 
     .circle-group {
         bottom:-40px;
         right:-20px;
+        width: 13.1vw;
     }
 }

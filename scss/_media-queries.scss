@@ -1,138 +1,165 @@
 /*****************MEDİA-QUERY*********************/
 
+@media screen and (max-width:1390px) {
+    .item1 {
+        left: 15% !important;
+        top: 220px !important;
+    }
 
+    .item2 {
+        left: 40% !important;
+        top: 75px !important;
+    }
 
-@media screen and (max-width: 1440px) {
-    .illustration {
-        width:600px;
-        top:90px;
+    .midside-course {
+        margin-top:0;
+    }
+
+    .bottomside-content {
+        margin-top:200px;
     }
 
     footer {
-        width:90%;
+        width:90%
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .illustration {
-        width:550px;
-    }
-    
-    .items {
-        width:70px;
-        height:70px;
+@media screen and (max-width:1222px) {
+    .midside-cards {
+        height: 700px;
     }
 
-    .item1 {
-        left:20% !important;
-        top:200px !important;
+    .bottomside-content {
+        margin-top:400px;
     }
 
-    .content-left h5 {
-        font-size:22px;
-    }
-
-    .content-left h1 {
-        font-size:55px;
-    }
-
-    .content-left p {
-        font-size:20px;
-    }
-
-    .content-left button {
-        width:130px;
-        height:40px;
-        font-size:12px;
-    }
-
-    .footer-right h2 {
-        font-size:48px;
-    }
-
-    .footer-right p, .footer-right a {
-        font-size:14px;
-    }
-
-    .bottomside {
-        margin-top: 300px;
-    }
-
-    .bottomside-content--right{
-        height:550px;
-        width:400px
+    .yellow-circle {
+        top: -40px !important;
+        left: -40px !important;
     }
 
     .circle-group {
-        width:150px;
+        bottom: -30px !important;
     }
 
-    .course-card-group {
-        width:1000px !important;
+
+    .footer-right p {
+        font-size: 1.2vw;
+    }
+    .footer-right h2 { 
+    font-size: 3.6vw;
     }
 }
 
-@media screen and (max-width:1024px) {
-    .illustration {
-        width:450px;
+@media screen and (max-width:1080px) {
+    .plus-group {
+        right:0 !important;
     }
+}
 
-    .bottomside-content--right{
-        height:500px;
-        width:380px
+@media screen and (max-width:932px) {
+    .bottomside-content {
+        margin-top:750px;
+    }
+}
+
+@media screen and (max-width:828px) {
+    .upside-footer {
+        margin-bottom: 0;
     }
 
     .midside-cards {
-        margin-bottom:250px;
+        height: 950px;
     }
 
-    .bottomside {
-        margin-top: 500px;
+    .bottomside-content--left {
+        height: 500px;
     }
+
+    .bottomside-content {
+        margin-top:1100px;
+    }
+
+    .bottomside-content--right {
+        height: 60vw;
+        width: 40vw;
+    }
+
+    .yellow-circle {
+        top: -30px !important;
+        left: -30px !important;
+    }
+
+    .circle-group {
+        bottom: -18px !important;
+    }
+
+    footer {
+        margin-top: 350px;
+    }
+
+    .custom-search {
+        width: 200px !important;
+    }
+
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
+    .upside-content {
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+    }
+    .content-left {
+        height:500px;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .upside-footer {
+        margin-top: 150px;
+    }
+
+    .illustration {
+        top:-50px;
+        left: -60px !important;
+        width: 54vw !important;
+        height: 50vw !important;
+    }
+
+    .item1 {
+        left: 0 !important;
+        top: 10% !important;
+    }
+
+    .item2 {
+        left: 15% !important;
+        top: 10px !important;
+    }
+    .item3 {
+        left: 60% !important;
+        top: -50px !important;
+    }
+    .item4 {
+        right: -10% !important;
+        top: 0px !important;
+    }
+    .item5 {
+        right: -20% !important;
+        top: 70px !important;
+    }
+
+    .content-left {
+        width:70%;
+    }
+
+    .content-left h5 {
+        font-size: 2vw;
+    }
+
+    .content-left h1 {
+        font-size: 8vw;
+    }
     
-    // .upside-footer {
-    //     flex-direction:column;
-    //     margin-top:50px;
-    //     margin-bottom:-70px;
-    // }
-
-    // .bottomside-content {
-    //     flex-direction:column;
-    //     justify-content:center;
-    //     align-items:center;
-    // }
 }
-
-
-
-
-// @media screen and (max-width: 1260px) {
-//     .midside-cards {
-//         margin-bottom:250px;
-//     }
-
-//     .bottomside {
-//         margin-top: 500px;
-//     }
-
-
-// }
-
-// @media screen and (max-width: 1234px) {
-//     .illustration {
-//         width:500px;
-//     }   
-
-//     footer {
-//         width:90%;
-//     }
-// }
-
-// @media screen and (max-width: 1048px) {
-//     .illustration {
-//         width:460px;
-//     }   
-// }

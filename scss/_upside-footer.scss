@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items:center;
+    flex-wrap: wrap;
 
 }
 
@@ -365,7 +366,7 @@
     h2 {
         font : {
             family:$interFont;
-            size:60px;
+            size:3.1vw;
             weight:bold;
         }
         line-height: 62px;
@@ -375,7 +376,7 @@
     p {
         font : {
             family: $interFont;
-            size:16px;
+            size:0.9vw;
         }
         line-height: 26px;
         color: #336C61;

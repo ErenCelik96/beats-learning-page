@@ -30,7 +30,7 @@ body {
   font-size: 15px;
   line-height: 22px;
   color: black !important;
-  margin-right: 30px;
+  margin-right: 1.5vw;
 }
 
 .inactive-sign {
@@ -85,9 +85,10 @@ body {
 .upside-bg .yellow-points {
   top: 547px;
   left: 35%;
+  width: 13vw;
 }
 .upside-bg .plus-group {
-  left: 85%;
+  right: 8%;
   top: 790px;
 }
 
@@ -114,7 +115,7 @@ body {
 .content-left h5 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 1.4vw;
   line-height: 30px;
   letter-spacing: 0.235em;
   color: #2F2B71;
@@ -124,7 +125,7 @@ body {
 .content-left h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 3.6458333333vw;
   line-height: 82px;
   color: #5F596E;
   margin-bottom: 20px;
@@ -132,7 +133,7 @@ body {
 .content-left p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.5vw;
   line-height: 31px;
   letter-spacing: 0.05em;
   color: #000000;
@@ -165,9 +166,14 @@ body {
 .content-right .content-right--img {
   position: absolute;
 }
+.content-right .items {
+  width: 4.84375vw;
+  height: 4.84375vw;
+}
 .content-right .illustration {
-  bottom: 0px;
   left: 10%;
+  width: 44vw;
+  height: 40vw;
 }
 .content-right .item1 {
   left: 30%;
@@ -199,6 +205,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-left {
@@ -496,14 +503,14 @@ body {
 }
 .footer-right h2 {
   font-family: "Inter", sans-serif;
-  font-size: 60px;
+  font-size: 3.1vw;
   font-weight: bold;
   line-height: 62px;
   color: #04004D;
 }
 .footer-right p {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 0.9vw;
   line-height: 26px;
   color: #336C61;
 }
@@ -551,7 +558,6 @@ body {
 .midside-cards {
   width: 100%;
   height: 400px;
-  padding: 20px;
 }
 .midside-cards .midside-cards--item {
   width: 298px;
@@ -596,7 +602,7 @@ body {
   color: #BDBDBD;
 }
 .midside-course .course-card-group {
-  width: 1200px;
+  width: 85vw;
 }
 .midside-course .course-cards {
   background-color: #FFFFFF;
@@ -645,6 +651,10 @@ body {
 }
 
 /*************BOTTOM SİDE CONTENT***********/
+.bottomside-content {
+  flex-wrap: wrap;
+}
+
 .bottomside-content--left {
   height: 700px;
   width: 600px;
@@ -658,7 +668,7 @@ body {
 }
 .bottomside-content--left h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 62px;
+  font-size: 3.3vw;
   font-weight: bold;
   line-height: 72px;
   color: #101130;
@@ -685,20 +695,23 @@ body {
 }
 
 .bottomside-content--right {
-  height: 660px;
-  width: 530px;
+  height: 34.3vw;
+  width: 27.6vw;
   background-image: url("../img/mid-woman-pic.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  align-self: center;
 }
 .bottomside-content--right .yellow-circle {
   top: -50px;
   left: -60px;
+  width: 7.8vw;
 }
 .bottomside-content--right .circle-group {
   bottom: -40px;
   right: -20px;
+  width: 13.1vw;
 }
 
 /*************BOTTOM SİDE SUBSCRİBE*****************/
@@ -707,7 +720,7 @@ body {
 }
 .bottomside-subscribe .bottomside-subscribe--content {
   margin-top: 200px;
-  width: 70%;
+  width: 80%;
   height: 391px;
   background-image: url("../img/bottom-group.png");
   background-repeat: no-repeat;
@@ -783,10 +796,8 @@ footer {
   width: 95%;
   height: 244px;
   margin: 100px 0 67px 0;
-}
-footer .footer-links {
-  width: 300px;
-  height: 200px;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 footer .footer-links a {
   text-decoration: none;
@@ -808,6 +819,10 @@ footer .footer-links ul {
   margin: 0;
   padding: 0;
 }
+footer .text {
+  width: 100px;
+  height: 250px;
+}
 footer .text h3 {
   margin-bottom: 41px;
 }
@@ -818,6 +833,10 @@ footer .text a {
   font-size: 16px;
   line-height: 24px;
 }
+footer .map {
+  width: 300px;
+  height: 200px;
+}
 footer .map :first-child {
   padding-left: 20px;
 }
@@ -826,90 +845,164 @@ footer .map .links {
 }
 
 /*****************MEDİA-QUERY*********************/
-@media screen and (max-width: 1440px) {
-  .illustration {
-    width: 600px;
-    top: 90px;
+@media screen and (max-width: 1390px) {
+  .item1 {
+    left: 15% !important;
+    top: 220px !important;
+  }
+
+  .item2 {
+    left: 40% !important;
+    top: 75px !important;
+  }
+
+  .midside-course {
+    margin-top: 0;
+  }
+
+  .bottomside-content {
+    margin-top: 200px;
   }
 
   footer {
     width: 90%;
   }
 }
-@media screen and (max-width: 1200px) {
-  .illustration {
-    width: 550px;
+@media screen and (max-width: 1222px) {
+  .midside-cards {
+    height: 700px;
   }
 
-  .items {
-    width: 70px;
-    height: 70px;
+  .bottomside-content {
+    margin-top: 400px;
   }
 
-  .item1 {
-    left: 20% !important;
-    top: 200px !important;
-  }
-
-  .content-left h5 {
-    font-size: 22px;
-  }
-
-  .content-left h1 {
-    font-size: 55px;
-  }
-
-  .content-left p {
-    font-size: 20px;
-  }
-
-  .content-left button {
-    width: 130px;
-    height: 40px;
-    font-size: 12px;
-  }
-
-  .footer-right h2 {
-    font-size: 48px;
-  }
-
-  .footer-right p, .footer-right a {
-    font-size: 14px;
-  }
-
-  .bottomside {
-    margin-top: 300px;
-  }
-
-  .bottomside-content--right {
-    height: 550px;
-    width: 400px;
+  .yellow-circle {
+    top: -40px !important;
+    left: -40px !important;
   }
 
   .circle-group {
-    width: 150px;
+    bottom: -30px !important;
   }
 
-  .course-card-group {
-    width: 1000px !important;
+  .footer-right p {
+    font-size: 1.2vw;
+  }
+
+  .footer-right h2 {
+    font-size: 3.6vw;
   }
 }
-@media screen and (max-width: 1024px) {
-  .illustration {
-    width: 450px;
+@media screen and (max-width: 1080px) {
+  .plus-group {
+    right: 0 !important;
   }
-
-  .bottomside-content--right {
-    height: 500px;
-    width: 380px;
+}
+@media screen and (max-width: 932px) {
+  .bottomside-content {
+    margin-top: 750px;
+  }
+}
+@media screen and (max-width: 828px) {
+  .upside-footer {
+    margin-bottom: 0;
   }
 
   .midside-cards {
-    margin-bottom: 250px;
+    height: 950px;
   }
 
-  .bottomside {
-    margin-top: 500px;
+  .bottomside-content--left {
+    height: 500px;
+  }
+
+  .bottomside-content {
+    margin-top: 1100px;
+  }
+
+  .bottomside-content--right {
+    height: 60vw;
+    width: 40vw;
+  }
+
+  .yellow-circle {
+    top: -30px !important;
+    left: -30px !important;
+  }
+
+  .circle-group {
+    bottom: -18px !important;
+  }
+
+  footer {
+    margin-top: 350px;
+  }
+
+  .custom-search {
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .upside-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-left {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upside-footer {
+    margin-top: 150px;
+  }
+
+  .illustration {
+    top: -50px;
+    left: -60px !important;
+    width: 54vw !important;
+    height: 50vw !important;
+  }
+
+  .item1 {
+    left: 0 !important;
+    top: 10% !important;
+  }
+
+  .item2 {
+    left: 15% !important;
+    top: 10px !important;
+  }
+
+  .item3 {
+    left: 60% !important;
+    top: -50px !important;
+  }
+
+  .item4 {
+    right: -10% !important;
+    top: 0px !important;
+  }
+
+  .item5 {
+    right: -20% !important;
+    top: 70px !important;
+  }
+
+  .content-left {
+    width: 70%;
+  }
+
+  .content-left h5 {
+    font-size: 2vw;
+  }
+
+  .content-left h1 {
+    font-size: 8vw;
   }
 }
 
