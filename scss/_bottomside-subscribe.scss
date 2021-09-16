@@ -68,6 +68,9 @@
                 color: #8D8A7A;
               }
               .custom-search-botton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: absolute;
                 right: 13px; 
                 top: 13px;
