@@ -345,8 +345,8 @@ body {
 }
 .footer-left .footer-left--statistics .donut-chart {
   position: relative;
-  width: 10.4vw;
-  height: 10.4vw;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
 }
 .footer-left .footer-left--statistics p.center {
@@ -358,8 +358,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 6.25vw;
-  height: 6.25vw;
+  width: 120px;
+  height: 120px;
   margin: auto;
   border-radius: 50%;
   line-height: 35px;
@@ -367,14 +367,14 @@ body {
 }
 .footer-left .footer-left--statistics .portion-block {
   border-radius: 50%;
-  clip: rect(0px, 10.4vw, 10.4vw, 5.2vw);
+  clip: rect(0px, 200px, 200px, 100px);
   height: 100%;
   position: absolute;
   width: 100%;
 }
 .footer-left .footer-left--statistics .circle {
   border-radius: 50%;
-  clip: rect(0px, 5.2vw, 10.4vw, 0px);
+  clip: rect(0px, 100px, 200px, 0px);
   height: 100%;
   position: absolute;
   width: 100%;
@@ -948,11 +948,14 @@ footer .map .links {
   }
 
   footer {
-    margin-top: 350px;
+    margin-top: 150px;
   }
 
   .custom-search {
     width: 200px !important;
+  }
+  .custom-search input {
+    font-size: 10px !important;
   }
 
   .vector-group {
@@ -1113,8 +1116,12 @@ footer .map .links {
   }
 
   .footer-left--statistics {
-    width: 220px !important;
+    width: 240px !important;
     height: 290px !important;
+  }
+
+  .footer-left--bg {
+    width: 100px;
   }
 
   .footer-right {
@@ -1127,6 +1134,18 @@ footer .map .links {
 
   .footer-right h2 {
     font-size: 5vw !important;
+  }
+
+  .midside-cards {
+    height: 600px;
+  }
+
+  .midside-course {
+    margin-top: 70px;
+  }
+
+  .bottomside-content {
+    margin-top: 750px;
   }
 
   .bottomside-subscribe--content {
@@ -1177,6 +1196,74 @@ footer .map .links {
 
   .content-left p {
     font-size: 2vw;
+  }
+
+  .footer-left {
+    width: 400px !important;
+  }
+
+  .footer-left--cong {
+    left: 8% !important;
+  }
+  .footer-left--cong img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-left--cong :first-child {
+    font-size: 10px !important;
+  }
+  .footer-left--cong :last-child {
+    font-size: 9px !important;
+  }
+
+  .footer-left--music {
+    left: -5% !important;
+    top: 20% !important;
+  }
+  .footer-left--music .footer-left--music_header h2 {
+    font-size: 18px !important;
+  }
+  .footer-left--music .footer-left--music_footer p {
+    font-size: 10px !important;
+  }
+  .footer-left--music .footer-left--music_footer button {
+    width: 60px !important;
+    height: 20px !important;
+    font-size: 8px !important;
+  }
+
+  .statistics div {
+    width: 80px !important;
+    height: 40px !important;
+  }
+  .statistics div h3 {
+    font-size: 14px !important;
+  }
+  .statistics div p {
+    font-size: 8px !important;
+  }
+
+  .donut-chart {
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .donut-chart .portion-block {
+    clip: rect(0px, 100px, 100px, 50px) !important;
+  }
+  .donut-chart .portion-block .circle {
+    clip: rect(0px, 50px, 100px, 0px) !important;
+  }
+  .donut-chart .center {
+    height: 60px !important;
+    width: 60px !important;
+  }
+
+  .midside-cards {
+    height: 800px !important;
+  }
+
+  .bottomside-content {
+    margin-top: 950px;
   }
 }
 

@@ -183,8 +183,8 @@
 
         .donut-chart {
             position: relative;
-            width: 10.4vw;
-            height: 10.4vw;
+            width: 200px;
+            height: 200px;
             border-radius: 100%
            }
           p.center {
@@ -193,8 +193,8 @@
             text-align: center;
           font-size: 28px;
             top:0;left:0;bottom:0;right:0;
-            width: 6.25vw;
-            height: 6.25vw;
+            width: 120px;
+            height: 120px;
             margin: auto;
             border-radius: 50%;
             line-height: 35px;
@@ -204,14 +204,14 @@
       
           .portion-block {
               border-radius: 50%;
-              clip: rect(0px, 10.4vw, 10.4vw, 5.2vw);
+              clip: rect(0px, 200px, 200px, 100px);
               height: 100%;
               position: absolute;
               width: 100%;
             }
           .circle {
               border-radius: 50%;
-              clip: rect(0px, 5.2vw, 10.4vw, 0px);
+              clip: rect(0px, 100px, 200px, 0px);
               height: 100%;
               position: absolute;
               width: 100%;

@@ -104,11 +104,14 @@
     }
 
     footer {
-        margin-top: 350px;
+        margin-top: 150px;
     }
 
     .custom-search {
         width: 200px !important;
+        input {
+            font-size: 10px !important;
+        }
     }
 
     .vector-group {
@@ -270,8 +273,12 @@
     }
 
     .footer-left--statistics {
-        width: 220px !important;
+        width: 240px !important;
         height: 290px !important;
+    }
+
+    .footer-left--bg {
+        width: 100px;
     }
 
     .footer-right {
@@ -284,6 +291,18 @@
 
     .footer-right h2 {
         font-size:5vw !important;
+    }
+
+    .midside-cards {
+        height:600px;
+    }
+
+    .midside-course {
+        margin-top: 70px;
+    }
+
+    .bottomside-content {
+        margin-top: 750px;
     }
 
     .bottomside-subscribe--content {
@@ -334,6 +353,86 @@
     .content-left p {
         font-size:2vw;
     }
+
+    .footer-left {
+        width: 400px !important;
+    }
+
+    .footer-left--cong {
+        left:8% !important;
+        img {
+            width:30px;
+            height:30px;
+        }
+
+        :first-child {
+            font-size:10px !important;
+        }
+
+        :last-child {
+            font-size: 9px !important;
+        }
+    }
+
+    .footer-left--music {
+        left:-5% !important;
+        top:20% !important;
+
+        .footer-left--music_header h2 {
+            font-size:18px !important;
+        }
+
+        .footer-left--music_footer p {
+            font-size:10px !important;
+        }
+
+        .footer-left--music_footer button {
+            width:60px !important;
+            height:20px !important;
+            font-size:8px !important;
+        }
+
+    }
+
+    .statistics div {
+        width: 80px !important;
+        height: 40px !important;
+
+        h3 {
+            font-size:14px !important;
+        }
+
+        p {
+            font-size:8px !important;
+        }
+    }
+
+    .donut-chart {
+        height: 100px !important;
+        width: 100px !important;
+
+        .portion-block {
+            clip: rect(0px, 100px, 100px, 50px) !important;
+
+            .circle {
+                clip: rect(0px, 50px, 100px, 0px) !important;
+            }
+        }
+
+        .center {
+            height: 60px !important;
+            width: 60px !important;
+        }
+    }
+
+    .midside-cards {
+        height: 800px !important;
+    }
+
+    .bottomside-content {
+        margin-top:950px;
+    }
+
 
 
 }
