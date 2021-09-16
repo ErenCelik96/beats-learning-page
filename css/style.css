@@ -907,6 +907,11 @@ footer .map .links {
   .bottomside-content {
     margin-top: 750px;
   }
+
+  .illustration {
+    left: 10%;
+    top: 5%;
+  }
 }
 @media screen and (max-width: 828px) {
   .upside-footer {
@@ -948,7 +953,7 @@ footer .map .links {
   }
 
   footer {
-    margin-top: 150px;
+    margin-top: 350px;
   }
 
   .custom-search {
@@ -1162,7 +1167,7 @@ footer .map .links {
     width: 250px !important;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .content-right .illustration {
     left: -65% !important;
     width: 65vw !important;
@@ -1198,6 +1203,10 @@ footer .map .links {
     font-size: 2vw;
   }
 
+  .footer-right {
+    height: 300px !important;
+  }
+
   .footer-left {
     width: 400px !important;
   }
@@ -1219,6 +1228,7 @@ footer .map .links {
   .footer-left--music {
     left: -5% !important;
     top: 20% !important;
+    height: 60% !important;
   }
   .footer-left--music .footer-left--music_header h2 {
     font-size: 18px !important;
@@ -1258,8 +1268,14 @@ footer .map .links {
     width: 60px !important;
   }
 
+  .footer-left--bg {
+    top: 55% !important;
+    right: 20% !important;
+  }
+
   .midside-cards {
     height: 800px !important;
+    margin-top: 100px !important;
   }
 
   .bottomside-content {
