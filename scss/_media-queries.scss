@@ -328,8 +328,6 @@
 
 @media screen and (max-width:680px) {
     .content-right .illustration {
-        // margin-top:20px;
-        // top: -50px;
         left: -65%!important;
         width: 65vw !important;
         height: 61vw !important;
@@ -450,6 +448,8 @@
         margin-top:950px;
     }
 
-
-
+    .map {
+        margin-top:40px !important;
+    }
 }
+

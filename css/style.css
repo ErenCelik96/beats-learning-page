@@ -838,8 +838,9 @@ footer .text a {
   line-height: 24px;
 }
 footer .map {
-  width: 300px;
+  width: 400px;
   height: 200px;
+  padding: 0 20px;
 }
 footer .map :first-child {
   padding-left: 20px;
@@ -1280,6 +1281,10 @@ footer .map .links {
 
   .bottomside-content {
     margin-top: 950px;
+  }
+
+  .map {
+    margin-top: 40px !important;
   }
 }
 
