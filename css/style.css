@@ -853,6 +853,11 @@ footer .map .links {
 }
 
 /*****************MEDİA-QUERY*********************/
+@media screen and (max-height: 680px) {
+  .upside-footer {
+    margin-top: 150px;
+  }
+}
 @media screen and (max-width: 1390px) {
   .item1 {
     left: 15% !important;
