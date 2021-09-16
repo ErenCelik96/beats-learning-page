@@ -74,6 +74,12 @@
 
     .bottomside-content--left {
         height: 500px;
+
+        button {
+            width: 150px !important;
+            height: 40px !important;
+            font-size:15px !important;
+        }
     }
 
     .bottomside-content {
@@ -83,15 +89,18 @@
     .bottomside-content--right {
         height: 60vw;
         width: 40vw;
+        margin-top:30px;
     }
 
     .yellow-circle {
-        top: -30px !important;
-        left: -30px !important;
+        top: -40px !important;
+        left: -40px !important;
+        width:12vw !important;
     }
 
     .circle-group {
-        bottom: -18px !important;
+        bottom: -30px !important;
+        width:18vw !important;
     }
 
     footer {
@@ -102,52 +111,150 @@
         width: 200px !important;
     }
 
+    .vector-group {
+        width: 150px;
+    }
+
 }
 
 @media screen and (max-width:768px) {
+
+    nav {
+        margin-top: -40px !important;
+    }
+
+    #searchBtn {
+        width: 70px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        font-size:14px;
+    }
+
+    #logo {
+        width: 180px;
+        height: 70px;
+    }
+
+    .upside-bg {
+        margin-top: 10px;
+    }
+
     .upside-content {
         flex-direction: column;
         justify-content:center;
         align-items:center;
         text-align: center;
+        margin-top:20px;
     }
+
+    .content-right {
+        height: 20rem;
+        margin-top:20px;
+    }
+
+    .yellow-points {
+        top: 400px !important;
+        left: 10% !important;
+    }
+    
+    .circle-left {
+        width: 20px;
+        height: 70px;
+    }
+
+    .square {
+        width: 90px;
+    }
+
+    .hexagon {
+        width: 30px;
+        height: 90px;
+    }
+
+    .circle-right {
+        width: 40px;
+        height: 90px;
+    }
+
+    .up-points {
+        width: 60px;
+        left:46% !important;
+    }
+
+    .plus-group {
+        width: 120px;
+        height: 110px;
+        top:735px !important;
+    }
+
+    .red-points {
+        width: 60px;
+    }
+
+    .left-vector {
+        width: 70px;
+        height: 40px;
+    }
+
+    .right-vector {
+        width: 130px;
+        height: 30px;
+    }
+
+    .illustration {
+        top:-50px;
+        left: -32px !important;
+        width: 54vw !important;
+        height: 50vw !important;
+    }
+
+    .item1 {
+        left: 22% !important;
+        top: 15% !important;
+    }
+
+    .item2 {
+        left: 40% !important;
+        top: 0px !important;
+    }
+    .item3 {
+        left: 70% !important;
+        top: -50px !important;
+    }
+    .item4 {
+        right: -20% !important;
+        top: 0px !important;
+    }
+    .item5 {
+        right: -30% !important;
+        top: 70px !important;
+    }
+
     .content-left {
         height:500px;
         justify-content:center;
         align-items:center;
+
+        button {
+            width: 150px;
+            height: 40px;
+            font-size:14px;
+        }
     }
 
     .upside-footer {
         margin-top: 150px;
     }
 
-    .illustration {
-        top:-50px;
-        left: -60px !important;
-        width: 54vw !important;
-        height: 50vw !important;
+    .footer-left--cong {
+        left:33% !important;
     }
 
-    .item1 {
-        left: 0 !important;
-        top: 10% !important;
-    }
-
-    .item2 {
-        left: 15% !important;
-        top: 10px !important;
-    }
-    .item3 {
-        left: 60% !important;
-        top: -50px !important;
-    }
-    .item4 {
-        right: -10% !important;
-        top: 0px !important;
-    }
-    .item5 {
-        right: -20% !important;
-        top: 70px !important;
+    .footer-left--music {
+        left:20% !important;
+        top:20% !important;
     }
 
     .content-left {
@@ -161,5 +268,72 @@
     .content-left h1 {
         font-size: 8vw;
     }
+
+    .footer-left--statistics {
+        width: 220px !important;
+        height: 290px !important;
+    }
+
+    .footer-right {
+        width:70%;
+    }
     
+    .footer-right p {
+        font-size:2vw !important;
+    }
+
+    .footer-right h2 {
+        font-size:5vw !important;
+    }
+
+    .bottomside-subscribe--content {
+        padding-left: 0 !important;
+        height:300px !important;
+    }
+
+    .bottomside-subscribe--content h1 {
+        font-size: 30px !important;
+    }
+
+    .subscribe-input {
+        height:280px !important;
+        width:250px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content-right .illustration {
+        // margin-top:20px;
+        // top: -50px;
+        left: -65%!important;
+        width: 65vw !important;
+        height: 61vw !important;
+    }
+    .item1 {
+        left: -20% !important;
+        top: 10% !important;
+    }
+
+    .item2 {
+        left: 0% !important;
+        top: -5% !important;
+    }
+    .item3 {
+        left: 40% !important;
+        top: -15% !important;
+    }
+    .item4 {
+        right: 0% !important;
+        top: 0% !important;
+    }
+    .item5 {
+        right: -2% !important;
+        top: 20% !important;
+    }
+
+    .content-left p {
+        font-size:2vw;
+    }
+
+
 }
