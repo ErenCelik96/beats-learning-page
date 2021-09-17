@@ -52,42 +52,43 @@ body {
   }
 }
 /*********UPSİDE-BG**********/
-.upside-bg {
-  width: 100%;
-  height: 90vh;
-  margin-top: 50px;
-  position: relative;
+.upside-bg--img {
+  position: absolute;
   z-index: 0;
 }
-.upside-bg .upside-bg--img {
-  position: absolute;
-}
-.upside-bg .circle-left {
+
+.circle-left {
   left: 0;
   top: 60px;
 }
-.upside-bg .square {
+
+.square {
   left: 0;
   top: 654px;
 }
-.upside-bg .hexagon {
+
+.hexagon {
   right: 0;
   top: 114px;
 }
-.upside-bg .circle-right {
+
+.circle-right {
   right: 0;
   top: 440px;
 }
-.upside-bg .up-points {
+
+.up-points {
   top: 0;
   left: 48%;
 }
-.upside-bg .yellow-points {
+
+.yellow-points {
   top: 547px;
   left: 35%;
   width: 13vw;
 }
-.upside-bg .plus-group {
+
+.plus-group {
   right: 8%;
   top: 790px;
 }
@@ -95,9 +96,8 @@ body {
 /****************UPSİDE-CONTENT************/
 .upside-content {
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 1;
-  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1506,6 +1506,11 @@ footer .map .links {
 
   footer {
     margin-top: 0 !important;
+  }
+
+  .text {
+    text-align: center !important;
+    margin-bottom: 20px !important;
   }
 }
 @media screen and (max-width: 380px) {
